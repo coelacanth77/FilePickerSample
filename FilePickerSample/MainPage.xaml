@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="FilePickerSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FilePickerSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF1259FB">
+        <TextBlock x:Name="FileNameText" HorizontalAlignment="Left" Margin="133,172,0,0" TextWrapping="Wrap" Text="ファイル名" VerticalAlignment="Top" Height="48" Width="978" FontFamily="Meiryo UI" FontSize="17.333"/>
+        <TextBlock x:Name="FilePathText" HorizontalAlignment="Left" Margin="131,225,0,0" TextWrapping="Wrap" Text="ディレクトリ" VerticalAlignment="Top" Height="62" Width="903" FontSize="17.333" FontFamily="Meiryo UI"/>
+        <Image x:Name="FileImage" HorizontalAlignment="Left" Height="437" Margin="82,287,0,0" VerticalAlignment="Top" Width="519"/>
+        <Button x:Name="pickButton" Content="画像を選択する" HorizontalAlignment="Left" Margin="133,69,0,0" VerticalAlignment="Top" Click="pickButton_Click"/>
+
+    </Grid>
+</Page>
